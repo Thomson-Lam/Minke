@@ -6,7 +6,7 @@ import React from 'react';
 this is to test if the .gitignore file works or not
 */
 
-function component() {
+function App() {
     return (
         <div>
         <h1>HELLO WORLD</h1>
@@ -14,6 +14,6 @@ function component() {
     );
 }
 
-export default component;
+export default App;
 
 
