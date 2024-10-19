@@ -4,7 +4,7 @@ import Attentionbar from './Attentionbar'
 import Thirstbar from './Thirstbar'
 import './Bars.css'
 
-const bar = () => {
+const Bar = () => {
   return (
     <div>
       <div className="Bar-Container">
@@ -25,4 +25,4 @@ const bar = () => {
   )
 }
 
-export default bar
+export default Bar;
