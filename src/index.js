@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import Component from './component';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 // require('dotenv').config();
 
@@ -9,10 +8,10 @@ import reportWebVitals from './reportWebVitals';
 const rootElement = document.getElementById('root');
 
 if (rootElement) {
-    const root = ReactDOM.createRoot(rootElement);
+    const root = ReactDOM.createRoot(rootElement); 
     root.render(
         <React.StrictMode>
-            <Component />
+        <App/>
         </React.StrictMode>
     )
 } else {
