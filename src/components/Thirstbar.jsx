@@ -7,7 +7,7 @@ const Thirstbar = () => {
     <div className='bigDiv'>
       <div className="barContainer">
         <div className="picture">
-          <img id = 'icon' src= {thirstIcon} atl = "HungerIcon"></img>
+          <img id = 'icon' src= {thirstIcon} alt = "HungerIcon"></img>
         </div>
         <div className="bar" id="thirstBar"></div>
       </div>
