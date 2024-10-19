@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Component from './component';
+import Component from "./components/Bars.jsx"
 import React from 'react';
 
 test('renders learn react link', () => {

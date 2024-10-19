@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Component from './components/component.js';
+import Component from './component';
 import reportWebVitals from './reportWebVitals';
 import FeedButton from './components/feedbutton.js';
 // require('dotenv').config();
@@ -10,11 +10,10 @@ import FeedButton from './components/feedbutton.js';
 const rootElement = document.getElementById('root');
 
 if (rootElement) {
-    const root = ReactDOM.createRoot(rootElement);
+    const root = ReactDOM.createRoot(rootElement); 
     root.render(
         <React.StrictMode>
             <Component />
-            <FeedButton />
         </React.StrictMode>
     )
 } else {
