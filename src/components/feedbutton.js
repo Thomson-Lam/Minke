@@ -13,7 +13,7 @@ export const FeedButton = () => {
     return (
         <div>
             <button onClick={handleFeed} className='button'>
-                {/* <img src={feedpic} alt='Feed img' className='pizza'/> */}
+                <img src={feedpic} alt='Feed img' className='pizza' style={{verticalAlign: 'center', border: 40}}/>
             </button>
             <br />
             <br />
