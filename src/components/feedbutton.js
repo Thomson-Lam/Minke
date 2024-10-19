@@ -1,6 +1,6 @@
 import React, { useState} from 'react'
 import './feedbutton.css'
-import feedpic from './feed.jpg'
+import feedpic from '../Assets/feed.jpg'
 
 export const FeedButton = () => {
     var [hunger, setHunger] = useState(0);
@@ -13,7 +13,7 @@ export const FeedButton = () => {
     return (
         <div>
             <button onClick={handleFeed} className='button'>
-                <img src={feedpic} alt='Feed img' className='pizza' style={{verticalAlign: 'center', border: 40}}/>
+                <img src={feedpic} alt='Feed img' className='pizza' style={{verticalAlign: 'center'}}/>
             </button>
             <br />
             <br />
