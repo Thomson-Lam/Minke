@@ -3,7 +3,7 @@
   "name": "Minke",
   "version": "1.0",
   "description": "A pet extension that needs attention.",
-  "action" {
+  "action": {
     "default_popup": "index.html",
     "default_title": "Click me"
   }
