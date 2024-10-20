@@ -1,6 +1,17 @@
 .dog {
-    display: block;
+    /* display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 50%; */
+    text-align: center;
+}
+
+#container {
+    width: 200px;
+    height: 120px;
+}
+
+#container img {
+    width: 100%;
+    height: auto;
 }

@@ -12,7 +12,7 @@ export const FeedButton = () => {
     }
     
     return (
-        <div>      
+        <div style={{textAlign: 'center'}}>      
             <DogImage hungerValue={hunger}/>
             <button onClick={handleFeed} className='button'>
                 <img src={feedpic} alt='Feed img' className='pizza' style={{verticalAlign: 'center'}}/>
