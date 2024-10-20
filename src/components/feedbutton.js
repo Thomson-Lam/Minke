@@ -13,11 +13,10 @@ export const FeedButton = () => {
     
     return (
         <div>      
+            <DogImage hungerValue={hunger}/>
             <button onClick={handleFeed} className='button'>
                 <img src={feedpic} alt='Feed img' className='pizza' style={{verticalAlign: 'center'}}/>
             </button>
-            <DogImage hungerValue={hunger}/>
-            Hunger = {hunger}
         </div>
   )
   
