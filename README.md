@@ -34,22 +34,6 @@ npm install
 ```
 
 
-# How to test your build:
-
-1. In the terminal run:
-
-```
-npm run build
-```
-
-2. copy the contents inside the `manifest.json` outside of the `build` folder, and paste them into the `manifest.json` inside the `build` folder. 
-
-2. Go to `chrome://extensions` and pack the extension. You should get a `.crx` and `.pem` files. 
-
-3. Load unpacked extension using the `build` folder. The extension should be uploaded to your browser.
-
-4. Test the extension. 
-
 
 > See more about Create React App below: 
 
