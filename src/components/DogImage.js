@@ -6,8 +6,8 @@ const DogImage = ({hungerValue}) => {
     return (
         <div style={{textAlign: 'center'}}>
             <div id='container'>
-                { hungerValue < 50 ? <img src={sad_dog} alt='sad_dog.png' class='dog'/> : 
-                <img src={happy_dog} alt='happy_dog.png' class='dog'/>}
+                { hungerValue < 50 ? <img src={sad_dog} alt='sad_dog.png' class='dog' width="auto" height="200"/> : 
+                <img src={happy_dog} alt='happy_dog.png' class='dog' width="auto" height="200"/>}
             </div>
             <br />
         </div>
