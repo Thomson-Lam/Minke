@@ -1,6 +1,5 @@
 import React, { useState} from 'react'
 import './feedbutton.css'
-import feedpic from '../Assets/feed.jpg'
 import DogImage from './DogImage';
 
 export const FeedButton = () => {
@@ -14,9 +13,7 @@ export const FeedButton = () => {
     return (
         <div style={{textAlign: 'center'}}>      
             <DogImage hungerValue={hunger}/>
-            <button onClick={handleFeed} className='button'>
-                <img src={feedpic} alt='Feed img' className='pizza' style={{verticalAlign: 'center'}}/>
-            </button>
+            <button onClick={handleFeed} className='button' />
         </div>
   )
   
