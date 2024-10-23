@@ -18,7 +18,8 @@
     border-radius: 50%;
     background-position: center;
     background-image: url('../Assets/quench.png');
-    background-size: 60px 60px;
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
     margin-right: 0px;
 }
 
