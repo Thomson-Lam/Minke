@@ -2,12 +2,12 @@ import React from 'react'
 import sad_dog from '../Assets/sad_dog.png'
 import happy_dog from '../Assets/happy_dog.png'
 
-const DogImage = ({hungerValue}) => {
+const DogImage = ({bars}) => {
     return (
         <div style={{textAlign: 'center'}}>
             <div id='container'>
-                { hungerValue < 50 ? <img src={sad_dog} alt='sad_dog.png' class='dog'/> : 
-                <img src={happy_dog} alt='happy_dog.png' class='dog'/>}
+                { bars.hungerValue < 50 || bars.thirstValue < 50 ? <img src={sad_dog} alt='sad_dog.png' class='dog' width="auto" height="200"/> : 
+                <img src={happy_dog} alt='happy_dog.png' class='dog' width="auto" height="200"/>}
             </div>
             <br />
         </div>
