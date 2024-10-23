@@ -1,12 +1,12 @@
 import React from 'react';
 import Component from './components/Bars';
-import { FeedButton } from './components/feedbutton';
+import { Buttons } from './components/Buttons';
 
 export default function App () {
     return (
         <>
         <Component />
-        <FeedButton />
+        <Buttons />
         </>
     );
 }
