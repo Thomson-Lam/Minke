@@ -4,7 +4,9 @@ import Attentionbar from './Attentionbar'
 import Thirstbar from './Thirstbar'
 import './Bars.css'
 
+
 const Bar = () => {
+  
   return (
     <div>
       <div className="Bar-Container">
